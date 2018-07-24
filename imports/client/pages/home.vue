@@ -187,7 +187,15 @@
   </f7-page>
 </template>
 <script>
-  import { f7Page, f7Navbar, f7NavRight, f7BlockTitle, f7List, f7ListItem, f7Link, f7Searchbar, f7Icon } from 'framework7-vue';
+  import f7Page from 'framework7-vue/components/page.js';
+  import f7Navbar from 'framework7-vue/components/navbar.js';
+  import f7NavRight from 'framework7-vue/components/nav-right.js';
+  import f7BlockTitle from 'framework7-vue/components/block-title.js';
+  import f7List from 'framework7-vue/components/list.js';
+  import f7ListItem from 'framework7-vue/components/list-item.js';
+  import f7Link from 'framework7-vue/components/link.js';
+  import f7Searchbar from 'framework7-vue/components/searchbar.js';
+  import f7Icon from 'framework7-vue/components/icon.js';
 
   export default {
     components: {

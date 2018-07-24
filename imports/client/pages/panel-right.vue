@@ -13,7 +13,13 @@
   </f7-page>
 </template>
 <script>
-  import { f7Page, f7Navbar, f7BlockTitle, f7Block, f7List, f7ListItem, f7Link } from 'framework7-vue';
+  import f7Page from 'framework7-vue/components/page.js';
+  import f7Navbar from 'framework7-vue/components/navbar.js';
+  import f7BlockTitle from 'framework7-vue/components/block-title.js';
+  import f7Block from 'framework7-vue/components/block.js';
+  import f7List from 'framework7-vue/components/list.js';
+  import f7ListItem from 'framework7-vue/components/list-item.js';
+  import f7Link from 'framework7-vue/components/link.js';
 
   export default {
     components: {
